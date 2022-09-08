@@ -5,7 +5,7 @@ body {
   text-align: center;
   opacity: 0.9;
   margin: 0;
-  color: seashell;
+  color: darkgray;
 }
 
 .header {
@@ -81,35 +81,41 @@ body {
 }
 
 .location-container{
-  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1sjc5vv*_ga*ODQ3MDgzNTM4Mi4xNjYyNTA3NTEx*_ga_3LRZM6TM9L*MTY2MjU4MDMwNy42LjAuMTY2MjU4MDMwNy42MC4wLjA.');
-  max-width:1200px;
+  width:1200px;
   height:500px;
-  display:inline-flex;
-  align-items: center;
-  background-size: 100%;
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*xtypd0*_ga*MTQ5OTIyMjg5MC4xNjU3NjA3NDg4*_ga_3LRZM6TM9L*MTY2MjYxMzM0MS41NC4xLjE2NjI2MTMzNDUuNTYuMC4w');
+  background-size:cover;
   background-position: center;
-  justify-content: space-betwee;
-  
+  margin:0 auto;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.location-content{
+.container-boxes{
+  width: 300px;
   background-color: black;
-  width:300px;
-  height:auto;
-  margin:40px;
   opacity: 0.7;
-}
-.location-content h4{
-text-align: center;
-opacity: 1;
+  height:auto;
+  align-self: flex-start;
+  margin: 15px 20px;
 }
 
-.location {
-  background-color: none;
-  text-align: center;
+
+.location-container h2{
+  flex: 1 1 100%;
+  align-self: flex-end;
+  color:seashell; 
+}
+
+.teacozy{
+  height:150px;
+  width: 100%;
   
-  height:5px;
-  margin: 0 auto;
-  display:block;
-  float:center;
+}
+
+footer{
+  float:left;
+  margin-left: 20px;
 }
